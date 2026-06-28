@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef3f7;
+  color: #222;
+}
+
+.app {
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #16324f;
+}
+
+.subtitle {
+  text-align: center;
+  color: #5f6b76;
+  margin-bottom: 30px;
+}
+
+.item-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: grid;
+  gap: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-form input,
+.item-form textarea,
+.item-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5df;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.item-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.item-form button {
+  padding: 12px;
+  background: #16324f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.item-form button:hover {
+  background: #234b73;
+}
+
+.filter-section {
+  margin-top: 25px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.filter-section select {
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.item-list {
+  margin-top: 25px;
+}
+
+.item-card {
+  background: white;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border-left: 6px solid #16324f;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.item-card h3 {
+  margin-top: 0;
+  color: #16324f;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.edit-button,
+.resolve-button,
+.delete-button,
+.cancel-button {
+  padding: 8px 12px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background: #0066cc;
+}
+
+.resolve-button {
+  background: #148f4f;
+}
+
+.delete-button {
+  background: #b00020;
+}
+
+.cancel-button {
+  background: #777;
+}
+
+.edit-button:hover {
+  background: #0080ff;
+}
+
+.resolve-button:hover {
+  background: #1ca866;
+}
+
+.delete-button:hover {
+  background: #d00030;
+}
+
+.cancel-button:hover {
+  background: #555;
+}
